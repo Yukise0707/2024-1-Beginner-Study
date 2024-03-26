@@ -43,3 +43,5 @@ add -> commit -> push하면 됨
 git add .
 git commit -m "이름"
 git push origin main(-u 없어도 됨)
+
+<https://github.com/Yukise0707/Yukise0707>
