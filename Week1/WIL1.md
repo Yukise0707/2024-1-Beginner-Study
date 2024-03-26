@@ -1,5 +1,4 @@
-Git 설치 시 주의사항
-
+####Git 설치 시 주의사항
 git init 사용시 branch 설정되는데 요즘 main이 주로 사용되므로 master 대신 사용
 
 VS코드에서 터미널 열기
@@ -9,8 +8,8 @@ git help로 명령어 잔뜩 나오면 git 설치 정상적으로 완료된거�
 
 
 git 초기설정
-	git config --global user.name "깃허브 이름"
-	git config --global user.email "깃허브 이메일"
+git config --global user.name "깃허브 이름"
+git config --global user.email "깃허브 이메일"
 git에 정보 넣어주기
 
 폴더 하나 만들고 열기
