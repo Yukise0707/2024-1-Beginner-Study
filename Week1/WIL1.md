@@ -42,26 +42,17 @@ commit 메세지 타입 종류
 ```
 git remote add origin (레포지토리 주소)
 ```
+로컬에 있는 파일들 깃허브로 공유하기
+```
+git push -u origin main 
+```
+-u는 처음 깃허브로 업로드할때만
 
-git push -u origin main 로컬에 있는 파일들이 깃허브로 공유됨
+## 이후 파일 수정 방법 및 기타 참고사항
 
--u는 처음에만
-
-###여기까지 하면 됨.
-
-이후 파일 수정
-
-git branch -m main : branch 이름 변경
+git branch -m main : branch 이름 main으로 변경
 
 파일 수정 후 저장시 M(odified) 상태로 전환
-
-add -> commit -> push하면 됨
-
-git add .
-
-git commit -m "이름"
-
-git push origin main(-u 없어도 됨)
 
 .md: "이 문서는 마크다운 문법으로 작성되었다"라는 것을 나타내는 확장자명. 
 
