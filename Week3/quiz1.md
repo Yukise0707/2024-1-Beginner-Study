@@ -57,7 +57,7 @@ s2d3f4g fourth commit
 이때, fourth commit까지 제거하고 fourth commit과 fifth commit의 변경 사항은
 Staging Area에 남아 있길 바란다면 reset을 어떤 옵션과 함께 사용하면 되는지 적으시오.
 
-- 답: git reset --soft 345hj36
+- 답: git reset --soft 345hj26
 
 ### Q8
 ```git log --oneline```으로 commit의 기록을 확인해보니 아래와 같은 log를 확인 할 수 있었다.
@@ -77,4 +77,4 @@ reset은 너무 위험하니 revert를 사용하려고 하여 ```fifth commit```
 여러 사람이 협업하는 프로젝트에서 커밋을 되돌려야 한다.  
 reset과 revert 중에 어떤 것을 선택할 것인지를 그 이유와 함께 적으시오.
 
-- 답: revert를 사용할 것이다. 이전 커밋을 제거해 버리고, 다른 브랜치에 영향을 줄 가능성이 있기 때문이다.
+- 답: revert를 사용할 것이다. reset은 이전 커밋을 제거해 버리고, 다른 브랜치에 영향을 줄 가능성이 있기 때문이다.
