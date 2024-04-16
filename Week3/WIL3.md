@@ -16,7 +16,7 @@
 + 커밋 준비 완료/not staged/untracked로 분류하여 표시
 
 
-## commit --amend
+## git commit --amend
 
 + vim 진입하여 commit 내용 수정할 때 사용
 
@@ -26,7 +26,7 @@
 
 + --no-edit: 커밋 메세지는 수정 X
 
-+ :rotating_light:주의: 다른 사람이 작업 기반으로 삼는, 또는 여러 브랜치를 이용한 commit은 amend 금지.(충돌 발생)
++ :rotating_light:주의: 다른 사람이 작업 기반으로 삼는 commit은 amend 금지.(충돌 발생) 혼자 쓰거나 단일 브랜치일 때 사용하자.
 
 
 ## git reset <--option> <commit ID>(지정된 커밋보다 나중에 만들어진 커밋을 삭제)
